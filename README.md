@@ -41,3 +41,5 @@ master修改后如何自动同步到gh-pages分支
 push = +refs/heads/master:refs/heads/gh-pages
  
 push = +refs/heads/master:refs/heads/master
+
+不知道管不管用
