@@ -31,5 +31,3 @@ git push -u origin gh-pages
 `访问地址 https://用户名.github.io/项目名称/文件路径`
 ```
 例如我的：https://c-aurora.github.io/online_demo/
-
-
