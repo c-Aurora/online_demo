@@ -32,14 +32,15 @@ git push -u origin gh-pages
 ```
 例如我的：https://c-aurora.github.io/online_demo/
 
+### 但是，我每次都要上传两份代码，太繁琐了
 
 master修改后如何自动同步到gh-pages分支
 每次当作品发生更改变动后，要先提交到master分支然后切换到gh-pages分支又重新提交一次，显然这个过程非常繁琐。接下我们介绍一种方法，只需提交到master分支即可，gh-pages分支无需重新提交，就可实现在线预览：
 
-打开github项目文件的根目录，先找到.git 这个文件夹（文件夹默认是隐藏的），然后找到config这个文件，并打开该文件，在文件里加入以下两句代码即可
+打开github项目文件的根目录，先找到.git 这个文件夹（文件夹默认是隐藏的），然后找到config这个文件，并打开该文件，将以下两行添加到[remote "origin"]部分
 
 push = +refs/heads/master:refs/heads/gh-pages
  
 push = +refs/heads/master:refs/heads/master
 
-不知道管不管用
+测试了下，可以
