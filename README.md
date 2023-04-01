@@ -29,6 +29,8 @@ git push -u origin gh-pages
 接下来就可以成功访问啦!
 
 `访问地址 https://用户名.github.io/项目名称/文件路径`
+
+网址实在记不住的话可以点击github上你项目右上角Settings->左边pages->第一行GitHub Pages就有你的网址
 ```
 例如我的：https://c-aurora.github.io/online_demo/
 
