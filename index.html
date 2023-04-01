@@ -11,34 +11,6 @@
 
 <body>
     <div>
-        <ul>
-            <li>首先创建一个新的项目，创建就不多说了，相信用过github的小伙伴都会</li>
-
-            <li>
-                然后克隆你的项目到本地
-                <p>git clone 项目地址</p>
-            </li>
-            <li>
-                然后正常的创建项目和提交代码
-                <p>cd 创建的项目</p>
-                <p>git add .</p>
-                <p>git commit -m '提交master上代码' //注意我们是在master主分支上。（当前是只有master分支的）
-                </p>
-                <p>git push</p>
-            </li>
-            <li>
-                最关键的来了，建立gh-pages分支
-                <p>git checkout -b gh-pages //新建一个gh-pages分支并切换到该分支 </p>
-                <p>cd 项目名 npm run build //在gh-pages分支下打包</p>
-                <p>git add -f dist //强制推送dist打包文件到gh-pages目录下,.gitignore文件中定义了忽略该文件</p>
-                <p>git commit -m 'Initial the page of project' //添加描述信息,提交到本地暂存区</p>
-                <p>提交：cd ../ git subtree push --prefix 项目名 /dist origin gh-pages</p>
-                <p>https://用户名.github.io/项目名称/文件路径</p>
-                <p></p>
-                <p></p>
-            </li>
-
-        </ul>
         <img src="images/Portfolio.png" alt="" srcset="">
     </div>
     <script src="js/index.js"></script>
